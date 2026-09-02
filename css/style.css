@@ -1117,7 +1117,7 @@ table caption { text-align: left; font-family: var(--font-head); font-weight: 70
   flex-direction: column;
   transition: transform .3s ease, box-shadow .3s ease;
   position: relative;
-  aspect-ratio: 4/4;
+  aspect-ratio: 4/3;
   background-position: center top;
 }
 .news-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
