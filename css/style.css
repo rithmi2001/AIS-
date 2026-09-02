@@ -1179,8 +1179,10 @@ table caption { text-align: left; font-family: var(--font-head); font-weight: 70
   width: 100%;
   flex: 1;
   min-height: 0;
-  background-size: cover;
-  background-position: center top;
+  background-size: contain;        /* ← was 'cover' */
+  background-repeat: no-repeat;    /* ← new line */
+  background-position: center;     /* ← was 'center top' */
+  background-color: var(--green-mint);  /* ← new line */
   display: block;
   position: relative;
   transition: transform .7s cubic-bezier(.2,.7,.3,1);
